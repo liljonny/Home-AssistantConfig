@@ -1,0 +1,6 @@
+alias: Ding
+sequence:
+  - service: tts.google_say
+    data:
+      entity_id: media_player.living_room
+      message: Ding
